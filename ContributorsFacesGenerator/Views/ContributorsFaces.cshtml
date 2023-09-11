@@ -1,0 +1,8 @@
+﻿<div style="display: flex; flex-wrap: wrap; width:@( Model.Width + "px" )">
+    @foreach (var contributor in Model.Contributors)
+    {
+        <div>
+            <img src="@contributor.AvatarUrl" width="46" height="46" style="margin: 2px;border-radius: 50%;" />
+        </div>
+    }
+</div>
