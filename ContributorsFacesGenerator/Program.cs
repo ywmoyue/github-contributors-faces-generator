@@ -2,7 +2,7 @@
 using ContributorsFacesGenerator.Extensions;
 using ContributorsFacesGenerator.Models.Common;
 using ContributorsFacesGenerator.Services;
-//dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true --self-contained true
+
 var config = InitArgs(args);
 if (string.IsNullOrEmpty(config.Repo))
 {
